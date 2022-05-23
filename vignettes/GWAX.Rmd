@@ -1,0 +1,23 @@
+---
+title: "GWAX"
+output: rmarkdown::html_vignette
+description:
+  skriv kort describtion her som kommer til at stå ved artikler 
+vignette: >
+  %\VignetteIndexEntry{GWAX}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Placeholder rmarkdown
+```{r}
+2+2
+```
+

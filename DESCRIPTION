@@ -1,0 +1,18 @@
+Package: RyouSick
+Title: Simulation and Analysis of Genetic Data
+Version: 1.0.0
+Authors@R: c(
+    person("Nicklas", "Stanislaus", email = "dummy@dummy.com", role = c("cre","aut")),
+    person("Markus", "Nielsen", role = "aut"),
+    person("Christian", "Mains", role = "aut"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+	  tibble
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

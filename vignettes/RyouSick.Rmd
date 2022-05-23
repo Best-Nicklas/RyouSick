@@ -1,0 +1,21 @@
+---
+title: "Getting Started with RyouSick"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{RyouSick}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Placeholder rmarkdown
+```{r}
+2+2
+```
+

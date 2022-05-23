@@ -1,0 +1,44 @@
+---
+title: "pakkesetup"
+output: html_document
+date: '2022-05-22'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+```{r}
+#funktioner til at bygge pakke
+devtools::create("RyouSick") #tilføj dependencies i import, husk til piping
+
+usethis::use_package_doc() #docs for ?package 
+usethis::use_mit_license() #licens
+usethis::use_readme_md() #Frontside   
+
+devtools::document() #converts documentations
+usethis::use_vignette("LTFH") #Lav en med samme navn som pakke for "get started"
+
+
+```
+
+```{r}
+#installation af pakke fra github eller mappe 
+devtools::load_all()
+devtools::install()
+devtools::install_github("Best-Nicklas/TestPackageSiteR")
+
+
+```
+
+```{r}
+#bygge hjemmeside 
+usethis::use_pkgdown()
+pkgdown::build_site()
+usethis::use_pkgdown_github_pages()
+
+```
+
