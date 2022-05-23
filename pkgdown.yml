@@ -1,0 +1,15 @@
+pandoc: 2.7.3
+pkgdown: 2.0.3
+pkgdown_sha: ~
+articles:
+  GWAS: GWAS.html
+  GWAX: GWAX.html
+  LTFH: LTFH.html
+  Prediction: Prediction.html
+  RyouSick: RyouSick.html
+  Writing_efficient_R_code_and_working_with_large_datasets: Writing_efficient_R_code_and_working_with_large_datasets.html
+last_built: 2022-05-23T14:16Z
+urls:
+  reference: https://best-nicklas.github.io/RyouSick/reference
+  article: https://best-nicklas.github.io/RyouSick/articles
+
